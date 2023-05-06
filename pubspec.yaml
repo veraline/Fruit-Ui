@@ -32,6 +32,8 @@ dependencies:
     sdk: flutter
   flutter_staggered_grid_view: ^0.6.2
 
+  molten_navigationbar_flutter: ^1.0.0
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -74,6 +76,18 @@ flutter:
    - assets/Cocktail2.png
    - assets/Beer2.png
    - assets/Orange-juice2.png
+   - assets/Cabage2.png
+   - assets/Carrot2.png
+   - assets/Cucumber2.png
+   - assets/Garlic2.png
+   - assets/Onion2.png
+   - assets/Tomatoe2.png
+   - assets/Sandwish1.png
+   - assets/Rice and Salad.png
+   - assets/Burger-2.png
+   - assets/Rice1.png
+   - assets/Grilled-Chicken.png
+   - assets/Shawarma.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

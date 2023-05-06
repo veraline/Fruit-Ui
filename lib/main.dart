@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_juice_ui/bottombar.dart';
 import 'package:fruit_juice_ui/staggered-gridview.dart';
 
 void main() => runApp(const MyApp());
@@ -96,11 +97,13 @@ class MyApp extends StatelessWidget {
                             padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
                             child: Gridview(),
                           ),
-                          Center(
-                            child: Text("data"),
-                          ),
-                              Center(
-                                child: Text("data"),
+                              Padding(
+                                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+                                child: GridView4(),
+                              ),
+                              Padding(
+                                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+                                child: GridView3(),
                               ),
                         Padding(
                             padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
@@ -112,8 +115,12 @@ class MyApp extends StatelessWidget {
                     )),
               )
             ],
+
+
           ),
+
         ),
+          bottomNavigationBar:  const BottomBar()
       ),
     );
   }
